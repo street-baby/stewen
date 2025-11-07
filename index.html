@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>神秘立冬礼物❄️</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!-- 卡片展示部分 -->
+    <div id="cardsSection" class="section active">
+        <!-- 礼物弹窗 -->
+        <div id="giftDialog" class="dialog-overlay">
+            <div class="dialog-box">
+                <div class="dialog-header">
+                    <div class="dialog-icon">❄️</div>
+                    <div class="dialog-title">立冬礼物</div>
+                </div>
+                <div class="dialog-content">
+                    送给欧豆豆桑立冬礼物，确定要打开吗？
+                </div>
+                <button class="dialog-button" onclick="openGift()">确定</button>
+            </div>
+        </div>
+
+        <!-- 卡片容器 -->
+        <div id="cardsContainer" class="cards-container"></div>
+
+        <!-- 链接按钮 -->
+        <div class="link-button">🔗 链接</div>
+    </div>
+
+    <!-- 3D立方体相册部分 -->
+    <div id="cubeSection" class="section">
+        <div class="box">
+            <ul class="minbox">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ul>
+            <ol class="maxbox">
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+                <li></li>
+            </ol>
+        </div>
+    </div>
+
+    <!-- 背景音乐 -->
+    <audio id="bgMusic" preload="auto">
+        <source src="videos/王安宇 - 想自由.mp3" type="audio/mpeg">
+        您的浏览器不支持音频播放。
+    </audio>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
