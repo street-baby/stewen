@@ -1,0 +1,273 @@
+@charset "utf-8";
+*{
+	margin:0;
+	padding:0;
+}
+body{
+	background: linear-gradient(135deg, #fbc2eb 0%, #a6c1ee 100%);
+	max-width: 100%;
+	min-width: 100%;
+	height: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	position: absolute;
+	margin-left: auto;
+	margin-right: auto;
+}
+li{
+	list-style: none;
+}
+.box{
+	width:200px;
+	height:200px;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size:100% 100%;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -100px;
+	margin-top: -100px;
+	-webkit-transform-style:preserve-3d;
+	transform-style:preserve-3d;
+	-webkit-animation: floatAndRotate 15s ease-in-out infinite;
+	animation: floatAndRotate 15s ease-in-out infinite;
+}
+.minbox{
+	width:100px;
+	height:100px;
+	position: absolute;
+	left:50px;
+	top:30px;
+	-webkit-transform-style:preserve-3d;
+}
+.minbox li{
+	width:100px;
+	height:100px;
+	position: absolute;
+	left:0;
+	top:0;
+}
+.minbox li:nth-child(1){
+	background: url(../images/WechatIMG782.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:translateZ(50px);
+}
+.minbox li:nth-child(2){
+	background: url(../images/WechatIMG784.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateX(180deg) translateZ(50px);
+}
+.minbox li:nth-child(3){
+	background: url(../images/WechatIMG786.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateX(-90deg) translateZ(50px);
+}
+.minbox li:nth-child(4){
+	background: url(../images/WechatIMG787.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateX(90deg) translateZ(50px);
+}
+.minbox li:nth-child(5){
+	background: url(../images/WechatIMG790.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateY(-90deg) translateZ(50px);
+}
+.minbox li:nth-child(6){
+	background: url(../images/WechatIMG791.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateY(90deg) translateZ(50px);
+}
+.maxbox li:nth-child(1){
+	background: url(../images/WechatIMG792.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:translateZ(50px);
+}
+.maxbox li:nth-child(2){
+	background: url(../images/WechatIMG800.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:translateZ(50px);
+}
+.maxbox li:nth-child(3){
+	background: url(../images/WechatIMG801.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateX(-90deg) translateZ(50px);
+}
+.maxbox li:nth-child(4){
+	background: url(../images/WechatIMG804.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateX(90deg) translateZ(50px);
+}
+.maxbox li:nth-child(5){
+	background: url(../images/WechatIMG814.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateY(-90deg) translateZ(50px);
+}
+.maxbox li:nth-child(6){
+	background: url(../images/WechatIMG818.jpg) no-repeat 0 0;
+	background-size: cover;
+	-webkit-transform:rotateY(90deg) translateZ(50px);
+}
+.maxbox{
+	width: 800px;
+	height: 400px;
+	position: absolute;
+	left: 0;
+	top: -20px;
+	-webkit-transform-style: preserve-3d;
+	
+}
+.maxbox li{
+	width: 200px;
+	height: 200px;
+	background: #fff;
+	border:1px solid #ccc;
+	position: absolute;
+	left: 0;
+	top: 0;
+	opacity: 0.2;
+	-webkit-transition:all 1s ease;
+}
+.maxbox li:nth-child(1){
+	-webkit-transform:translateZ(100px);
+}
+.maxbox li:nth-child(2){
+	-webkit-transform:rotateX(180deg) translateZ(100px);
+}
+.maxbox li:nth-child(3){
+	-webkit-transform:rotateX(-90deg) translateZ(100px);
+}
+.maxbox li:nth-child(4){
+	-webkit-transform:rotateX(90deg) translateZ(100px);
+}
+.maxbox li:nth-child(5){
+	-webkit-transform:rotateY(-90deg) translateZ(100px);
+}
+.maxbox li:nth-child(6){
+	-webkit-transform:rotateY(90deg) translateZ(100px);
+}
+.box:hover ol li:nth-child(1){
+	-webkit-transform:translateZ(300px);
+	width: 400px;
+	height: 400px;
+	opacity: 0.8;
+	left: -100px;
+	top: -100px;
+}
+.box:hover ol li:nth-child(2){
+	-webkit-transform:rotateX(180deg) translateZ(300px);
+	width: 400px;
+	height: 400px;
+	opacity: 0.8;
+	left: -100px;
+	top: -100px;
+}
+.box:hover ol li:nth-child(3){
+	-webkit-transform:rotateX(-90deg) translateZ(300px);
+	width: 400px;
+	height: 400px;
+	opacity: 0.8;
+	left: -100px;
+	top: -100px;
+}
+.box:hover ol li:nth-child(4){
+	-webkit-transform:rotateX(90deg) translateZ(300px);
+	width: 400px;
+	height: 400px;
+	opacity: 0.8;
+	left: -100px;
+	top: -100px;
+}
+.box:hover ol li:nth-child(5){
+	-webkit-transform:rotateY(-90deg) translateZ(300px);
+	width: 400px;
+	height: 400px;
+	opacity: 0.8;
+	left: -100px;
+	top: -100px;
+}
+.box:hover ol li:nth-child(6){
+	-webkit-transform:rotateY(90deg) translateZ(300px);
+	width: 400px;
+	height: 400px;
+	opacity: 0.8;
+	left: -100px;
+	top: -100px;
+}
+/* 飘动+旋转组合动画 - 立方体边旋转边移动 */
+@keyframes floatAndRotate{
+	0%{
+		transform: translate(0, 0) rotateX(13deg) rotateY(0deg);
+		-webkit-transform: translate(0, 0) rotateX(13deg) rotateY(0deg);
+	}
+	20%{
+		transform: translate(150px, -80px) rotateX(13deg) rotateY(144deg);
+		-webkit-transform: translate(150px, -80px) rotateX(13deg) rotateY(144deg);
+	}
+	40%{
+		transform: translate(-120px, 100px) rotateX(13deg) rotateY(288deg);
+		-webkit-transform: translate(-120px, 100px) rotateX(13deg) rotateY(288deg);
+	}
+	60%{
+		transform: translate(180px, 120px) rotateX(13deg) rotateY(432deg);
+		-webkit-transform: translate(180px, 120px) rotateX(13deg) rotateY(432deg);
+	}
+	80%{
+		transform: translate(-100px, -90px) rotateX(13deg) rotateY(576deg);
+		-webkit-transform: translate(-100px, -90px) rotateX(13deg) rotateY(576deg);
+	}
+	100%{
+		transform: translate(0, 0) rotateX(13deg) rotateY(720deg);
+		-webkit-transform: translate(0, 0) rotateX(13deg) rotateY(720deg);
+	}
+}
+
+/* 旋转动画（备用） */
+@keyframes rotate{
+	0%{
+		transform: rotateX(13deg) rotateY(0deg);
+		-webkit-transform: rotateX(13deg) rotateY(0deg);
+	}
+	100%{
+		transform: rotateX(13deg) rotateY(360deg);
+		-webkit-transform: rotateX(13deg) rotateY(360deg);
+	}
+}
+
+/* 飘动动画（备用） */
+@keyframes float{
+	0%{
+		transform: translate(0, 0);
+		-webkit-transform: translate(0, 0);
+	}
+	25%{
+		transform: translate(150px, -100px);
+		-webkit-transform: translate(150px, -100px);
+	}
+	50%{
+		transform: translate(-100px, 80px);
+		-webkit-transform: translate(-100px, 80px);
+	}
+	75%{
+		transform: translate(120px, 100px);
+		-webkit-transform: translate(120px, 100px);
+	}
+	100%{
+		transform: translate(0, 0);
+		-webkit-transform: translate(0, 0);
+	}
+}
+
+/* 兼容旧的 move 动画名称 */
+@keyframes move{
+	0%{
+		-webkit-transform: rotateX(13deg) rotateY(0deg);
+	}
+	100%{
+		-webkit-transform:rotateX(13deg) rotateY(360deg);
+	}
+}
+
